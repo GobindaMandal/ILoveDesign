@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #23232e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header .img{
+    width: 7%;
+    padding: 30px 0;
+}
+h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+header p{
+    font-size: 12px;
+}
+header i{
+    margin-top: 100px;
+    border: 1px solid white;
+    padding: 5px 6px;
+    font-size: 13px;
+    border-radius: 50%;
+}
+
+.what-i-do{
+    background: url('images/back.png');
+    text-align: center;
+    padding: 20px 25%;
+    color: #464b4f;
+    overflow: hidden;
+}
+.what-i-do p{
+    font-size: 25px;
+}
+.what-i-do .row .col p{
+    font-size: 15px;
+}
+.col{
+    width: 31.33%;
+    margin: 1%;
+    float: left;
+    text-align: left;
+}
+
+.my-work{
+    background: #23232e;
+    text-align: center;
+    padding:  50px 25%;
+    color: white;
+}
+.my-work .row2 .col2{
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+.my-work .img{
+    width: 200px;
+}
+.my-work .row3 .col3{
+    text-align: center;
+    width: 31.33%;
+    margin: 1%;
+    float: left;
+}
+.my-work p{
+    font-size: 10px;
+}
+button{
+    margin-top: 40px;
+    padding: 12px 25px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(122, 99, 202);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.photography{
+    background: url('images/back.png');
+    text-align: center;
+    padding: 20px 25%;
+    color: #464b4f;
+    overflow: hidden;
+}
+.photography .row3 .col3{
+    text-align: center;
+    width: 31.33%;
+    margin: 1%;
+    float: left;
+}
+.photography .img{
+    width: 200px;
+}
+.photography p{
+    font-size: 25px;
+}
+.photolog{
+    margin-bottom: 30px;
+}
+
+.subscribe{
+    background: #23232e;
+    text-align: center;
+    padding:  50px 25%;
+    color: white;
+}
+.search-for{
+    padding: 10px 30px;
+}
+.subscribe .img2{
+    width: 7%;
+    padding: 15px 0;
+}
+.sub{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.but{
+    margin-top: 20px;
+}
+.subscribe p{
+    font-size: 12px;
+}
+
+@media all and (max-width: 1300px){
+    .my-work .img{
+        width: 100%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    h5{
+        font-size: 10px;
+    }
+    .photography .img{
+        width: 100%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .what-i-do p{
+        font-size: 20px;
+    }
+    .photography p{
+        font-size: 20px;
+    }
+    .what-i-do .row .col p{
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 400px){
+    header .img{
+        width: 20%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    header i{
+        margin-top: 30px;
+    }
+    .what-i-do .col{
+        float: none;
+        width: 100%;
+    }
+    .what-i-do, .photography, .my-work, .subscribe{
+        padding: 15px 10%;
+    }
+}
